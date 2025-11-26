@@ -2,7 +2,7 @@
 
 ## **Sobre mim**
 
-Olá, muito prazer! Me chamdo Ivo Bruno e sou entusiasta de progrmaação desde a adolecencia. Tenho certa afinidade com as áreas de Backend e Banco de dados, focando principalmente na linguagem Java.
+Olá, muito prazer! Me chamdo Ivo Bruno e sou entusiasta de programação desde a adolecencia. Tenho certa afinidade com as áreas de Backend e Banco de dados, focando principalmente na linguagem Java.
 
 ## **Formação**
 
