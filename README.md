@@ -6,7 +6,7 @@ Olá, muito prazer! Me chamdo Ivo Bruno e sou entusiasta de programação desde 
 
 ## **Formação**
 
-Análise e Desenvolvimento de Sistemas | IFPI (2/5)
+Análise e Desenvolvimento de Sistemas | IFPI (3/5)
 
 ## **Tecnologias**
 
