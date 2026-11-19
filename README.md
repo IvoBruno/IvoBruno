@@ -40,6 +40,15 @@ Atualmente, curso Análise e Desenvolvimento de Sistemas, aprofundando conhecime
 
 ## Projetos em Destaque
 
+### FarmaUBS
+* **Descrição:** Plataforma multi-tenant para gestão de farmácias de Unidades Básicas de Saúde (UBS), cobrindo autenticação e controle de acesso, recebimento de medicamentos (CAF), dispensação ao paciente com rastreabilidade de lotes e controle de estoque.
+* **Tecnologias:** TypeScript, NestJS, React, React Native (Expo), TypeORM, PostgreSQL, Docker, pnpm (Monorepo), Jest, Vitest e Cucumber.
+* **Destaques Técnicos:**
+  * Arquitetura modular em camadas (Domain, Application e Infrastructure) em monorepo com contratos e regras compartilhadas (`@farmaubs/shared`) entre Backend, Web e Mobile.
+  * Isolamento físico multi-tenant no PostgreSQL com Row-Level Security (RLS), autenticação baseada em sessão server-side (cookies `HttpOnly`) e controle de acesso RBAC por perfil e unidade de saúde.
+  * Fluxos críticos de dispensação e recebimento com transações atômicas, algoritmo FEFO (*First Expired, First Out*), livro-razão imutável de movimentações de estoque e suíte completa de testes unitários, BDD, integração de schema e E2E.
+* **Repositório:** [Acessar Projeto](https://github.com/jh-ecomp/farmaubs)
+
 ### PontoAPonto
 * **Descrição:** Sistema de gerenciamento de ponto eletrônico e controle de jornada de trabalho projetado para empresas com capacidade para cerca de 2000 funcionários.
 * **Tecnologias:** Java, Spring Boot, Spring Data JPA, PostgreSQL, H2 Database e JUnit 5.
@@ -48,15 +57,6 @@ Atualmente, curso Análise e Desenvolvimento de Sistemas, aprofundando conhecime
   * Implementação baseada no padrão Data Access Object (DAO) e injeção de dependência via construtor.
   * Configuração de perfis de teste (Spring Profiles) com banco em memória H2 para testes de integração rápidos e isolados.
 * **Repositório:** [Acessar Projeto](https://github.com/IvoBruno/PontoAPonto)
-
-### FinanceTracker
-* **Descrição:** API REST desenvolvida para controle financeiro pessoal, permitindo o gerenciamento de transações (receitas e despesas), contas bancárias e categorias de planejamento orçamentário.
-* **Tecnologias:** Java, Spring Boot, Spring Data JPA, Spring Security (JWT), PostgreSQL e JUnit 5.
-* **Destaques Técnicos:**
-  * Autenticação e autorização com tokens JWT stateless via Spring Security.
-  * Otimização de consultas SQL para geração de relatórios consolidados e agregações por período e categoria.
-  * Testes automatizados com JUnit 5 cobrindo regras de negócio críticas e limites de orçamento.
-* **Repositório:** [Acessar Projeto](https://github.com/IvoBruno/FinanceTracker)
 
 ## Contato
 
